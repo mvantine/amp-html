@@ -1,0 +1,157 @@
+﻿<!doctype html>
+<html amp lang="en">
+    <head>
+        <meta charset="utf-8">
+        <script async src="https://cdn.ampproject.org/v0.js"></script>
+        <title>Micah's Cool Page</title>
+        <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+        <style>
+            amp-sidebar {
+                width: 250px
+            }
+
+            .sidebarTitle {
+                text-align: center;
+                font-family: 'Courier New';
+            }
+
+            .barButton {
+                background-color: darkgrey;
+                border: none;
+                color: black;
+                padding: 15px 32px;
+                text-align: center;
+                display: inline-block;
+                font-size: 16px;
+                font-family: 'Courier New';
+                width: 100%;
+            }
+
+            .socialText {
+                color: wheat;
+                font-family: 'Courier New';
+                font-size: 14px;
+            }
+
+            .openSidebar {
+                background-color: darkgrey;
+                border: none;
+                color: black;
+                padding: 15px 32px;
+                text-align: center;
+                display: inline-block;
+                font-size: 16px;
+                font-family: 'Courier New';
+            }
+
+            .pictures {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+
+            .top {
+                color: wheat;
+                text-align: center;
+            }
+        </style>
+        <style amp-boilerplate>
+            body {
+                -webkit-animation: -amp-start 8s steps(1,end) 0s 1 normal both;
+                -moz-animation: -amp-start 8s steps(1,end) 0s 1 normal both;
+                -ms-animation: -amp-start 8s steps(1,end) 0s 1 normal both;
+                animation: -amp-start 8s steps(1,end) 0s 1 normal both
+            }
+
+            @-webkit-keyframes -amp-start {
+                from {
+                    visibility: hidden
+                }
+
+                to {
+                    visibility: visible
+                }
+            }
+
+            @-moz-keyframes -amp-start {
+                from {
+                    visibility: hidden
+                }
+
+                to {
+                    visibility: visible
+                }
+            }
+
+            @-ms-keyframes -amp-start {
+                from {
+                    visibility: hidden
+                }
+
+                to {
+                    visibility: visible
+                }
+            }
+
+            @-o-keyframes -amp-start {
+                from {
+                    visibility: hidden
+                }
+
+                to {
+                    visibility: visible
+                }
+            }
+
+            @keyframes -amp-start {
+                from {
+                    visibility: hidden
+                }
+
+                to {
+                    visibility: visible
+                }
+            }
+        </style>
+        <noscript>
+            <style amp-boilerplate>
+                body {
+                    -webkit-animation: none;
+                    -moz-animation: none;
+                    -ms-animation: none;
+                    animation: none
+                }
+            </style>
+        </noscript>
+        <script async custom-element="amp-addthis" src="https://cdn.ampproject.org/v0/amp-addthis-0.1.js"></script>
+        <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+        <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+    </head>
+    <body background="stars.gif">
+        <div>
+            <amp-sidebar id="sidebar" layout="nodisplay" side="right">
+                <h2 class="sidebarTitle">The Cool Sidebar!</h2>
+                <input class="barButton" type="button" onclick="window.location.href = 'https://en.wikipedia.org/wiki/Cool';" value="What is Cool?" />
+                <input class="barButton" type="button" onclick="window.location.href = 'https://traveljee.com/top-10/top-10-most-advanced-cities-in-the-world/';" value="Where is Cool?" />
+                <input class="barButton" type="button" onclick="window.location.href = 'https://en.wikipedia.org/wiki/List_of_Internet_pioneers';" value="Who is Cool?" />
+                <input class="barButton" type="button" onclick="window.location.href = 'https://www.thoughtco.com/high-and-low-temperature-timing-3444247';" value="When is Cool?" />
+                <input class="barButton" type="button" onclick="window.location.href = 'https://www.psychologytoday.com/us/blog/encountering-america/201407/what-s-wrong-being-cool';" value="Why is Cool?" />
+            </amp-sidebar>
+            <button class="openSidebar" on="tap:sidebar.open">Open sidebar</button>
+        </div>
+        <h1 class="top" style="font-family:Courier">&nbspMicah's Cool AMP!</h1>
+        <amp-img src="duane.gif" alt="Duane" height="400" width="500" class="pictures"></amp-img>
+        <p></p>
+        <amp-img src="speedrun.gif" alt="Speedrun" height="400" width="500" class="pictures"></amp-img>
+        <p></p>
+        <amp-youtube data-videoid="TnvPt_a7iOQ"
+                     layout="responsive"
+                     width="480"
+                     height="270">
+        </amp-youtube>
+        <p></p>
+        <p class="socialText">Share the coolness on social media!</p>
+        <amp-addthis width="320" height="92" data-pub-id="ra-5cad1572388ec9e5" data-widget-id="oaik" data-widget-type="inline"></amp-addthis>
+    </body>
+</html>
